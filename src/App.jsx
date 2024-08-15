@@ -53,7 +53,7 @@ function App() {
               onChange={event => handleFormChange(index, event)}
             />
             <button className={styles.btn3} type="button" onClick={() => removeFields(index)}>
-              <img src="../public/img/icons8-delete.svg" alt="" />
+              <img src=".img/icons8-delete.svg" alt="" />
             </button>
           </div>
         ))}
