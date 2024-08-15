@@ -1,0 +1,74 @@
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.inp{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+input{
+    width: 150px;
+    padding-left:15px ;
+    height: 25px;
+    border: 1px solid rgb(151, 151, 248);
+    border-radius: 8px;
+}
+
+.btnBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    gap: 40px;
+}
+.btn1{
+    width: 150px;
+    height: 35px;
+    border: 1px solid rgb(109, 249, 109);
+    border-radius: 8px;
+    background-color: greenyellow;
+    color: red;
+
+}
+.btn1:hover{
+    background-color: rgb(1, 255, 1);
+    color: aliceblue;
+}
+.btn2{
+    width: 150px;
+    height: 35px;
+    border: 1px solid rgb(122, 97, 245);
+    border-radius: 8px;
+    background-color: rgb(171, 173, 249);
+    color: rgb(15, 9, 9);
+}
+.btn2:hover{
+background-color: blue;
+color: aliceblue;
+}
+.btn3{
+    width: 40px;
+    height: 30px;
+   
+    border: 1px solid rgb(242, 141, 141);
+    border-radius: 8px;
+    background-color: rgb(251, 192, 192);
+    color: rgb(15, 9, 9);
+}
+.btn3:hover{
+background-color: red;
+color: white;
+}
+img{
+    width: 24px;
+    height: 24px;
+}
+img:hover{
+    color: aliceblue;
+}
